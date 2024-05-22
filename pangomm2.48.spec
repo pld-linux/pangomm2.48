@@ -18,6 +18,7 @@ BuildRequires:	automake >= 1:1.11
 BuildRequires:	doxygen >= 1:1.8.9
 BuildRequires:	cairomm1.16-devel >= %{cairomm_ver}
 BuildRequires:	glibmm2.68-devel >= %{glibmm_ver}
+BuildRequires:	graphviz
 BuildRequires:	libstdc++-devel >= 6:7
 BuildRequires:	libtool >= 2:2.0
 BuildRequires:	mm-common >= 0.9.12
