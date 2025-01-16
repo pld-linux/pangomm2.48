@@ -2,16 +2,16 @@
 
 %define	cairomm_ver	1.15.1
 %define	glibmm_ver	2.68.0
-%define	pango_ver	1:1.54.0
+%define	pango_ver	1:1.56.0
 Summary:	A C++ interface for pango library
 Summary(pl.UTF-8):	Interfejs C++ dla biblioteki pango
 Name:		pangomm2.48
-Version:	2.54.0
+Version:	2.56.1
 Release:	1
 License:	LGPL v2+
 Group:		X11/Libraries
-Source0:	https://download.gnome.org/sources/pangomm/2.54/pangomm-%{version}.tar.xz
-# Source0-md5:	19e0266fdd4b47d5fadd9f16ee5f728d
+Source0:	https://download.gnome.org/sources/pangomm/2.56/pangomm-%{version}.tar.xz
+# Source0-md5:	f3003015d87cb56c9cf731fa7a920a24
 URL:		https://www.gtkmm.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
