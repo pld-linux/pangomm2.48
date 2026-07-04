@@ -6,13 +6,13 @@
 Summary:	A C++ interface for pango library
 Summary(pl.UTF-8):	Interfejs C++ dla biblioteki pango
 Name:		pangomm2.48
-Version:	2.56.1
+Version:	2.56.2
 Release:	1
 License:	LGPL v2+
 Group:		X11/Libraries
 Source0:	https://download.gnome.org/sources/pangomm/2.56/pangomm-%{version}.tar.xz
-# Source0-md5:	f3003015d87cb56c9cf731fa7a920a24
-URL:		https://www.gtkmm.org/
+# Source0-md5:	54f80e1204be44a97a2c831fec904ae9
+URL:		https://gtkmm.gnome.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
 BuildRequires:	doxygen >= 1:1.8.9
@@ -114,12 +114,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog NEWS README.md
-%attr(755,root,root) %{_libdir}/libpangomm-%{apiver}.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libpangomm-%{apiver}.so.1
+%{_libdir}/libpangomm-%{apiver}.*.*.*
+%ghost %{_libdir}/libpangomm-%{apiver}.so.1
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/libpangomm-%{apiver}.so
+%{_libdir}/libpangomm-%{apiver}.so
 %{_includedir}/pangomm-%{apiver}
 %{_libdir}/pangomm-%{apiver}
 %{_pkgconfigdir}/pangomm-%{apiver}.pc
